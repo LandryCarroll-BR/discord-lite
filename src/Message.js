@@ -10,7 +10,7 @@ function Message({ timestamp, user, message }) {
         <h4>
           {user.displayName}
           <span className="message__timeStamp">
-            {new Date(timestamp?.toDate()).toUTCString()}
+            {new Date(timestamp?.toDate()).toDateString()}
           </span>
         </h4>
 
