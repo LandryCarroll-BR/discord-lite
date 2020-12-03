@@ -1,0 +1,28 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(221, 228, 235);
+}
+
+.login > button {
+  width: 160px;
+  background-color: #738adb;
+  color: #eff2f5;
+  font-weight: 800;
+  margin: 80px;
+}
+
+.login > button:hover {
+  background-color: #3b4a7e;
+  color: #eff2f5;
+}
+
+.login > div > img {
+  object-fit: contain;
+  min-height: 10vw;
+  max-height: 18vw;
+}

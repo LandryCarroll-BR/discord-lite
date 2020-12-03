@@ -1,0 +1,28 @@
+.mobileDropdown {
+  background-color: #2F3135;
+  border-top: 2px solid #26282c;
+}
+
+.mobileDropdown__channels {
+  display: flex;
+}
+
+.mobildDropdown__header > h4 {
+  padding-right: 8px;
+}
+
+.mobildDropdown__addChannel, .mobildDropdown__logout {
+  display: flex;
+  color: gray;
+  padding: 15px;
+  align-items: center;
+}
+
+@media only screen 
+  and (min-device-width: 813px) { 
+    .mobileDropdown {
+      display: none !important;
+    }
+
+
+}
